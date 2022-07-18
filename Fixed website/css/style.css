@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+a,button {
+  transition: all 0.3s ease-in-out
+}
+.bloc {
+  width: 100%;
+  clear: both;
+  background: 50% 50% no-repeat;
+  padding: 0 50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative
+}
+
+.bloc .container {
+  padding-left: 0;
+  padding-right: 0
+}
+
+.bloc-lg {
+  padding: 100px 50px
+}
+
+.bloc-md {
+  padding: 50px
+}
+
+.bloc-sm {
+  padding: 20px 50px
+}
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat {
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto
+}
+
+.bg-repeat {
+  background: repeat
+}
+
+.bg-t-edge {
+  background: top no-repeat
+}
+
+.bloc-bg-texture::before {
+  content: "";
+  background-size: 2px 2px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0
+}
+
+.texture-paper::before {
+  background: url(../img/texture-paper.png);
+  background-size: 280px 280px
+}
+
+.b-parallax {
+  background-attachment: fixed
+}
+
+.d-bloc {
+  color: rgb(255,255,255)
+}
+.d-bloc .panel,.l-bloc {
+  color: rgba(0,0,0,.5)
+}
+.d-bloc .panel .a-btn,.l-bloc .a-btn,.l-bloc .navbar a,.l-bloc .navbar-brand,.l-bloc a .icon-sm,.l-bloc a .icon-md,.l-bloc a .icon-lg,.l-bloc a .icon-xl,.l-bloc h1 a,.l-bloc h2 a,.l-bloc h3 a,.l-bloc h4 a,.l-bloc h5 a,.l-bloc h6 a,.l-bloc p a {
+  color: rgba(0,0,0,.6)
+}
+
+.voffset {
+  margin-top: 30px
+}
+
+.voffset-lg {
+  margin-top: 80px
+}
+
+.row-no-gutters {
+  margin-right: 0;
+  margin-left: 0
+}
+
+.row.row-no-gutters>[class^="col-"],.row.row-no-gutters>[class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0
+}
+
+#bloc-1-hero h1 {
+  font-size: 32px
+}
+
+.navbar {
+  margin-bottom: 0;
+  z-index: 1
+}
+
+.navbar-brand {
+  height: auto;
+  padding: 3px 15px;
+  font-size: 25px;
+  font-weight: 400;
+  font-weight: 600;
+  line-height: 44px
+}
+
+.navbar-brand img {
+  max-height: 200px;
+  margin: 0 5px 0 0;
+  display: inline
+}
+
+.navbar .nav {
+  padding-top: 2px;
+  margin-right: -16px;
+  float: right;
+  z-index: 1
+}
+
+.nav>li {
+  float: left;
+  margin-top: 4px;
+  font-size: 16px
+}
+.navbar-toggle {
+  margin: 10px 10px 0 0;
+  border: 0
+}
+.site-navigation {
+  position:absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0,-50%);
+  -webkit-transform: translateY(-50%)
+}
+.mg-md {
+  margin-top: 10px;
+  margin-bottom: 20px
+}
+
+.btn {
+  margin: 0 5px 5px 0
+}
+.btn-rd {
+  border-radius: 40px
+}
+
+.btn-clean {
+  border: 1px solid rgba(0,0,0,.08);
+  border-bottom-color: rgba(0,0,0,.1);
+  text-shadow: 0 1px 0 rgba(0,0,1,.1);
+  box-shadow: 0 1px 3px rgba(0,0,1,.25),inset 0 1px 0 0 rgba(255,255,255,.15)
+}
+
+.icon-md {
+  font-size: 30px
+}
+
+.icon-lg {
+  font-size: 60px
+}
+
+.sm-shadow {
+  text-shadow: 0 1px 2px rgba(0,0,0,.3)
+}
+a[data-lightbox] {
+  position: relative;
+  display: block;
+  text-align: center
+}
+h1,h2,h3,h4,h5,h6,p,label,.btn,a,figcaption {
+  font-family: "helvetica";
+  font-weight: 400;
+  color: #404040
+}
+
+.container {
+  max-width: 1000px
+}
+
+.hero-bloc-text {
+  font-size: 38px
+}
+p {
+  font-size: 16px
+}
+
+.tight-width-whitespace {
+  max-width: 600px;
+  margin: auto auto auto auto
+}
+
+.cta-hero {
+  margin-top: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 12px 28px 12px 28px;
+  font-size: 16px;
+  font-weight: 700
+}
+
+.social {
+  max-width: 400px;
+  margin: auto auto auto auto
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 1.4em
+}
+
+h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333
+}
+
+.med-width-whitespace {
+  max-width: 800px;
+  margin: auto auto auto auto;
+  box-shadow: 0 0 0 #000
+}
+
+h1 {
+  color: #333
+}
+
+.icons {
+  margin-bottom: 14px;
+  margin-top: 24px
+}
+
+.white {
+  color: #fff
+}
+
+.portfolio-thumb {
+  margin-bottom: 24px
+}
+
+.portfolio-row {
+  margin-bottom: 44px;
+  margin-top: 50px
+}
+
+.black-background {
+  background-color: rgba(0,0,0,.7);
+  padding: 40px 40px 40px 40px
+}
+
+.bold-link {
+  font-weight: 900;
+  text-decoration: underline
+}
+
+.bgc-white {
+  background-color: #fff
+}
+
+.bgc-dark-slate-blue {
+  background-color: #364577
+}
+
+.bgc-atomic-tangerine {
+  background-color: #f3976c
+}
+
+.tc-white {
+  color: #fff
+}
+
+.btn-atomic-tangerine {
+  background: #f3976c;
+  color: #404040
+}
+
+.ltc-white {
+  color: #fff
+}
+.icon-dark-slate-blue {
+  color: #364577;
+  border-color: #364577
+}
+.bg-banniere {
+  background-image: url(../img/la-chouette-agence-banniere.jpg)
+}
+
+.bg-presentation {
+  background-image: url(../img/image-de-presentation.jpg)
+}
+
+
+
+
+
+
