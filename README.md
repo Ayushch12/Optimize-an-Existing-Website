@@ -40,5 +40,7 @@ This practice is easily detectable and will result in negative ranking or outrig
 An example is provided below.
 
 
+<img width="1277" alt="Screenshot 2023-03-14 at 15 26 39" src="https://user-images.githubusercontent.com/96380226/225033300-3ad93a1c-f4d5-4ef2-b7c0-9d7079c92c8b.png">
+<img width="1277" alt="Screenshot 2023-03-14 at 15 26 39" src="https://user-images.githubusercontent.com/96380226/225033387-3289cc97-3c27-443e-8db1-11b4ac73ee1c.png">
 
 
