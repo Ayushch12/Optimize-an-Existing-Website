@@ -1,5 +1,5 @@
 # Optimize an Existing Website
-STARTING AND ENDING SITES :
+STARTING AND ENDING SITES:
 
 [Starting website ](https://reliable-pie-3b4f28.netlify.app )
 And
